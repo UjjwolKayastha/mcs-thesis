@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 0 "main.aux" "main.bbl" "main" 0 -1
-  "./references.bib" 1721460342 6218 6e2c84cfa40f3356ed12d20f81da4232 ""
+["bibtex main"] 1721464660 "main.aux" "main.bbl" "main" 1721464661 0
+  "./references.bib" 1721463105 6219 dc4300ca16c6fed7c788b44e5a22e9da ""
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/ieeetran/IEEEtran.bst" 1440712899 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1721460343 2399 6b9e619be40d455453409b38e66f747b "pdflatex"
+  "main.aux" 1721464661 3426 150350bd4868e6cc8e50ca61265379d5 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1721460343 "/Users/ujjwol.kayastha/Ujjwol/Phoenix/seminar-papers/remote-sensing/main.tex" "main.pdf" "main" 1721460344 2
-  "/Users/ujjwol.kayastha/Ujjwol/Phoenix/seminar-papers/remote-sensing/main.tex" 1721460330 9940 52e4fe7589b0f6f640e102988d341300 ""
+["pdflatex"] 1721464660 "/Users/ujjwol.kayastha/Ujjwol/Phoenix/mcs/seminar papers/remote-sensing/main.tex" "main.pdf" "main" 1721464661 0
+  "/Users/ujjwol.kayastha/Ujjwol/Phoenix/mcs/seminar papers/remote-sensing/main.tex" 1721464658 11970 7b770c8bfc40c65c00296b9a0f554418 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -60,9 +60,12 @@
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1704978614 7883460 0fd4e964397c415614da1404263f54e7 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
   "images/remote-sensing.png" 1721451311 277415 79139bd29452bdaf7e20964cc483c56d ""
-  "main.aux" 1721460343 2399 6b9e619be40d455453409b38e66f747b "pdflatex"
-  "main.bbl" 1721460067 3029 7c2256652109b49eea30929d4c4693b4 "bibtex main"
-  "main.tex" 1721460330 9940 52e4fe7589b0f6f640e102988d341300 ""
+  "images/rs-process.png" 1721462815 149316 9dd9ac7ad543daf6ddc74d5c4fadbd93 ""
+  "images/urbanplanning.jpg" 1721464400 106413 95e3671d52c6125156d0f5be1dfb4b1f ""
+  "images/wheat-mustard.png" 1721463822 744890 7ae894c47ae3b83a120068a78e48d941 ""
+  "main.aux" 1721464661 3426 150350bd4868e6cc8e50ca61265379d5 "pdflatex"
+  "main.bbl" 1721464660 3030 f64d6335306ba45113e080a3ff57115b "bibtex main"
+  "main.tex" 1721464658 11970 7b770c8bfc40c65c00296b9a0f554418 ""
   (generated)
   "main.aux"
   "main.log"

@@ -1,8 +1,8 @@
-PWD /Users/ujjwol.kayastha/Ujjwol/Phoenix/seminar-papers/remote-sensing
+PWD /Users/ujjwol.kayastha/Ujjwol/Phoenix/mcs/seminar papers/remote-sensing
 INPUT /usr/local/texlive/2023/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/ujjwol.kayastha/Ujjwol/Phoenix/seminar-papers/remote-sensing/main.tex
+INPUT /Users/ujjwol.kayastha/Ujjwol/Phoenix/mcs/seminar papers/remote-sensing/main.tex
 OUTPUT main.log
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
@@ -299,6 +299,11 @@ INPUT images/remote-sensing.png
 INPUT ./images/remote-sensing.png
 OUTPUT main.pdf
 INPUT ./images/remote-sensing.png
+INPUT ./images/rs-process.png
+INPUT ./images/rs-process.png
+INPUT images/rs-process.png
+INPUT ./images/rs-process.png
+INPUT ./images/rs-process.png
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -315,9 +320,17 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
+INPUT ./images/wheat-mustard.png
+INPUT ./images/wheat-mustard.png
+INPUT images/wheat-mustard.png
+INPUT ./images/wheat-mustard.png
+INPUT ./images/wheat-mustard.png
+INPUT ./images/urbanplanning.jpg
+INPUT ./images/urbanplanning.jpg
+INPUT images/urbanplanning.jpg
+INPUT ./images/urbanplanning.jpg
+INPUT ./images/urbanplanning.jpg
 INPUT ./main.bbl
 INPUT main.bbl
 INPUT ./main.bbl
