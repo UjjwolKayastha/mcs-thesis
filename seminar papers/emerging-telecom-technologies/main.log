@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.11)  20 JUL 2024 14:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.11)  20 JUL 2024 15:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/ujjwol.kayastha/Ujjwol/Phoenix/mcs/seminar papers/remote-sensing/main.tex"
-(/Users/ujjwol.kayastha/Ujjwol/Phoenix/mcs/seminar papers/remote-sensing/main.tex
+**"/Users/ujjwol.kayastha/Ujjwol/Phoenix/mcs/seminar papers/emerging-telecom-technologies/main.tex"
+(/Users/ujjwol.kayastha/Ujjwol/Phoenix/mcs/seminar papers/emerging-telecom-technologies/main.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/local/texlive/2023/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -268,31 +268,41 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-<images/remote-sensing.png, id=1, 475.7775pt x 265.99374pt>
-File: images/remote-sensing.png Graphic file (type png)
-<use images/remote-sensing.png>
-Package pdftex.def Info: images/remote-sensing.png  used on input line 46.
-(pdftex.def)             Requested size: 252.0pt x 140.88672pt.
-<images/rs-process.png, id=3, 691.58376pt x 691.58376pt>
-File: images/rs-process.png Graphic file (type png)
-<use images/rs-process.png>
-Package pdftex.def Info: images/rs-process.png  used on input line 60.
-(pdftex.def)             Requested size: 252.0pt x 251.99858pt.
+<images/evolution.png, id=1, 654.445pt x 566.115pt>
+File: images/evolution.png Graphic file (type png)
+<use images/evolution.png>
+Package pdftex.def Info: images/evolution.png  used on input line 48.
+(pdftex.def)             Requested size: 252.0pt x 217.98518pt.
  [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
- <./images/remote-sensing.png>]
-<images/wheat-mustard.png, id=14, 920.43875pt x 704.6325pt>
-File: images/wheat-mustard.png Graphic file (type png)
-<use images/wheat-mustard.png>
-Package pdftex.def Info: images/wheat-mustard.png  used on input line 76.
-(pdftex.def)             Requested size: 252.0pt x 192.90901pt.
- [2 <./images/rs-process.png> <./images/wheat-mustard.png>]
-<images/urbanplanning.jpg, id=20, 652.4375pt x 412.54124pt>
-File: images/urbanplanning.jpg Graphic file (type jpg)
-<use images/urbanplanning.jpg>
-Package pdftex.def Info: images/urbanplanning.jpg  used on input line 98.
-(pdftex.def)             Requested size: 252.0pt x 159.3419pt.
+ <./images/evolution.png>]
+<images/5g-applications.png, id=13, 505.89pt x 438.438pt>
+File: images/5g-applications.png Graphic file (type png)
+<use images/5g-applications.png>
+Package pdftex.def Info: images/5g-applications.png  used on input line 63.
+(pdftex.def)             Requested size: 252.0pt x 218.40227pt.
+<images/iot.png, id=14, 943.525pt x 553.06625pt>
+File: images/iot.png Graphic file (type png)
+<use images/iot.png>
+Package pdftex.def Info: images/iot.png  used on input line 72.
+(pdftex.def)             Requested size: 252.0pt x 147.70956pt.
+<images/ai.png, id=15, 676.5275pt x 451.6875pt>
+File: images/ai.png Graphic file (type png)
+<use images/ai.png>
+Package pdftex.def Info: images/ai.png  used on input line 81.
+(pdftex.def)             Requested size: 252.0pt x 168.24518pt.
+<images/blockchain.png, id=16, 472.76625pt x 248.93pt>
+File: images/blockchain.png Graphic file (type png)
+<use images/blockchain.png>
+Package pdftex.def Info: images/blockchain.png  used on input line 90.
+(pdftex.def)             Requested size: 252.0pt x 132.69194pt.
+ [2 <./images/5g-applications.png> <./images/iot.png> <./images/ai.png>]
+<images/digital-economy.jpg, id=23, 722.7pt x 374.39874pt>
+File: images/digital-economy.jpg Graphic file (type jpg)
+<use images/digital-economy.jpg>
+Package pdftex.def Info: images/digital-economy.jpg  used on input line 103.
+(pdftex.def)             Requested size: 252.0pt x 130.55022pt.
  (./main.bbl)
 
 ** Conference Paper **
@@ -305,20 +315,20 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3 <./images/urbanplanning.jpg>] (./main.aux) ) 
+[3 <./images/blockchain.png> <./images/digital-economy.jpg>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 4196 strings out of 476025
- 66387 string characters out of 5790017
- 1865388 words of memory out of 5000000
- 24625 multiletter control sequences out of 15000+600000
+ 4208 strings out of 476025
+ 66631 string characters out of 5790017
+ 1862388 words of memory out of 5000000
+ 24635 multiletter control sequences out of 15000+600000
  542790 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,8n,62p,1213b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,8n,62p,1112b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 1353968 bytes).
+Output written on main.pdf (3 pages, 1642543 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
+ 47 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

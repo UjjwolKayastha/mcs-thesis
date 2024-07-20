@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1721464660 "main.aux" "main.bbl" "main" 1721465239 0
-  "./references.bib" 1721463105 6219 dc4300ca16c6fed7c788b44e5a22e9da ""
+["bibtex main"] 1721470191 "main.aux" "main.bbl" "main" 1721470192 0
+  "./references.bib" 1721469573 3606 4108339e84c2d2a62e0e6063fdb4304c ""
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/ieeetran/IEEEtran.bst" 1440712899 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1721465239 3426 150350bd4868e6cc8e50ca61265379d5 "pdflatex"
+  "main.aux" 1721470192 2437 f3c95d0ab61057a1082d33314f0cdee0 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1721465238 "/Users/ujjwol.kayastha/Ujjwol/Phoenix/mcs/seminar papers/remote-sensing/main.tex" "main.pdf" "main" 1721465239 0
-  "/Users/ujjwol.kayastha/Ujjwol/Phoenix/mcs/seminar papers/remote-sensing/main.tex" 1721465238 12016 dda75d05f0396854f35d5b6ca9bf3a3f ""
+["pdflatex"] 1721470191 "/Users/ujjwol.kayastha/Ujjwol/Phoenix/mcs/seminar papers/emerging-telecom-technologies/main.tex" "main.pdf" "main" 1721470192 0
+  "/Users/ujjwol.kayastha/Ujjwol/Phoenix/mcs/seminar papers/emerging-telecom-technologies/main.tex" 1721470189 11203 62e20daa6c8d35041d19bc1b76d62a33 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -59,13 +59,15 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1704978640 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1704978614 7883460 0fd4e964397c415614da1404263f54e7 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "images/remote-sensing.png" 1721451311 277415 79139bd29452bdaf7e20964cc483c56d ""
-  "images/rs-process.png" 1721462815 149316 9dd9ac7ad543daf6ddc74d5c4fadbd93 ""
-  "images/urbanplanning.jpg" 1721464400 106413 95e3671d52c6125156d0f5be1dfb4b1f ""
-  "images/wheat-mustard.png" 1721463822 744890 7ae894c47ae3b83a120068a78e48d941 ""
-  "main.aux" 1721465239 3426 150350bd4868e6cc8e50ca61265379d5 "pdflatex"
-  "main.bbl" 1721464660 3030 f64d6335306ba45113e080a3ff57115b "bibtex main"
-  "main.tex" 1721465238 12016 dda75d05f0396854f35d5b6ca9bf3a3f ""
+  "images/5g-applications.png" 1721468300 125818 8b88994a83e1a072f44aa5d44bbfedba ""
+  "images/ai.png" 1721469940 802384 55af2e879577ae51019b2d528c9bfa8e ""
+  "images/blockchain.png" 1721469675 146685 afdcbae2241cce0361d45a03215fbc5c ""
+  "images/digital-economy.jpg" 1721470118 96562 d2ed227114be48dea6237067af8bc17f ""
+  "images/evolution.png" 1721467588 394592 5f77052dc510c224679d2db2bb439ed2 ""
+  "images/iot.png" 1721468597 330091 9ccfc6a4a96744286547a47dd84c387e ""
+  "main.aux" 1721470192 2437 f3c95d0ab61057a1082d33314f0cdee0 "pdflatex"
+  "main.bbl" 1721470191 2224 7a7406186950f78d59623f4079ad9cb1 "bibtex main"
+  "main.tex" 1721470189 11203 62e20daa6c8d35041d19bc1b76d62a33 ""
   (generated)
   "main.aux"
   "main.log"
