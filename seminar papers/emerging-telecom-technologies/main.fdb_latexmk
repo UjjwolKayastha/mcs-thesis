@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1721470191 "main.aux" "main.bbl" "main" 1721470192 0
+["bibtex main"] 1721470191 "main.aux" "main.bbl" "main" 1721471211 0
   "./references.bib" 1721469573 3606 4108339e84c2d2a62e0e6063fdb4304c ""
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/ieeetran/IEEEtran.bst" 1440712899 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1721470192 2437 f3c95d0ab61057a1082d33314f0cdee0 "pdflatex"
+  "main.aux" 1721471211 2437 f3c95d0ab61057a1082d33314f0cdee0 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1721470191 "/Users/ujjwol.kayastha/Ujjwol/Phoenix/mcs/seminar papers/emerging-telecom-technologies/main.tex" "main.pdf" "main" 1721470192 0
-  "/Users/ujjwol.kayastha/Ujjwol/Phoenix/mcs/seminar papers/emerging-telecom-technologies/main.tex" 1721470189 11203 62e20daa6c8d35041d19bc1b76d62a33 ""
+["pdflatex"] 1721471210 "/Users/ujjwol.kayastha/Ujjwol/Phoenix/mcs/seminar papers/emerging-telecom-technologies/main.tex" "main.pdf" "main" 1721471211 0
+  "/Users/ujjwol.kayastha/Ujjwol/Phoenix/mcs/seminar papers/emerging-telecom-technologies/main.tex" 1721471210 11214 044ff22a784fa8a8f0d390995c3ec4b0 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -65,9 +65,9 @@
   "images/digital-economy.jpg" 1721470118 96562 d2ed227114be48dea6237067af8bc17f ""
   "images/evolution.png" 1721467588 394592 5f77052dc510c224679d2db2bb439ed2 ""
   "images/iot.png" 1721468597 330091 9ccfc6a4a96744286547a47dd84c387e ""
-  "main.aux" 1721470192 2437 f3c95d0ab61057a1082d33314f0cdee0 "pdflatex"
+  "main.aux" 1721471211 2437 f3c95d0ab61057a1082d33314f0cdee0 "pdflatex"
   "main.bbl" 1721470191 2224 7a7406186950f78d59623f4079ad9cb1 "bibtex main"
-  "main.tex" 1721470189 11203 62e20daa6c8d35041d19bc1b76d62a33 ""
+  "main.tex" 1721471210 11214 044ff22a784fa8a8f0d390995c3ec4b0 ""
   (generated)
   "main.aux"
   "main.log"
