@@ -1,0 +1,124 @@
+\documentclass[12pt, a4paper, oneside]{article}
+\usepackage[left=3cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+\usepackage{times}
+\usepackage[style=ieee]{biblatex}
+\usepackage{tocloft, calc}
+\usepackage{booktabs}
+\usepackage{bbding} % marks
+
+\usepackage{chngcntr} % table count reset
+\usepackage{titlesec} % section title formatting
+
+\usepackage{graphicx} % figure addition
+
+\usepackage{setspace}
+
+\usepackage{pgfgantt}
+
+\usepackage{adjustbox}
+\usepackage{array}
+
+% enumitem
+\usepackage{enumitem}
+
+% algorithms 
+\usepackage[plain]{algorithm}
+\usepackage{algorithmic}
+
+\makeatletter
+\renewcommand{\ALG@name}{Fig.}
+\makeatother
+
+\renewcommand{\figurename}{Fig.}
+
+\onehalfspacing
+
+
+\addbibresource{references.bib}
+
+\let\indentorignal\cftsubsecindent
+
+% table of content formatting fixes
+\renewcommand{\contentsname}{\hfill \large{Table of Content}\hfill}
+\renewcommand{\cftaftertoctitle}{\hfill}
+\renewcommand{\cftaftertoctitleskip}{48pt}
+\renewcommand{\cftdot}{} % dots in table of contents
+\renewcommand{\cftsecpresnum}{CHAPTER\space}
+\renewcommand{\cftsubsecindent}{12pt}
+\addtocontents{toc}{\hfill\textbf{Title}\hfill\textbf{Page}\\[-12pt]\par}
+
+% list of figures formatting fixes
+\renewcommand{\listfigurename}{\hfill \large{List of figures}\hfill}
+\renewcommand{\cftfigpresnum}{Fig.\space}
+\renewcommand{\cftafterloftitleskip}{48pt}
+\setlength{\cftfignumwidth}{\widthof{\textbf{Fig.~999~}\qquad}}
+\addtocontents{lof}{\hspace{86pt}\textbf{Title}\hfill\textbf{Page}\\[-12pt]\par}
+
+% list of tables formatting fixes
+\renewcommand{\listtablename}{\hfill \large{List of table}\hfill}
+\renewcommand{\cfttabpresnum}{Table\space}
+\renewcommand{\cftafterlottitleskip}{48pt}
+\setlength{\cfttabnumwidth}{\widthof{\textbf{Table~999~}\qquad}}
+\addtocontents{lot}{\hspace{96pt}\textbf{Title}\hfill\textbf{Page}\\[-12pt]\par}
+
+\counterwithin{table}{section}
+\counterwithin{figure}{section}
+\counterwithin{algorithm}{section}
+
+% section title formatting [14pt]
+\titleformat{\section}
+{\large\bfseries}{\thesection}{1em}{}
+
+% subsection title formatting [12pt, bold]
+\titleformat{\subsection}
+{\bfseries}{\thesubsection}{1em}{}
+
+\begin{document}
+
+\include{a_cover_page}
+
+\include{a_title_page}
+
+\pagenumbering{roman}
+
+\include{a_declaration_page}
+
+\include{a_recommendation_page}
+
+\include{a_certificate_page}
+
+\include{a_acknowledgements_page}
+
+\include{a_abstract_page}
+
+% section names in format Chapter: 1. Introduction
+\tableofcontents
+\addtocontents{toc}{Table of Content\hfill \thepage\par}
+\cleardoublepage
+
+
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+
+\listoffigures
+\addtocontents{toc}{List of figures\hfill \thepage\par}
+\cleardoublepage
+
+\listoftables
+\addtocontents{toc}{List of tables\hfill \thepage\par}
+\cleardoublepage
+
+\pagestyle{plain}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\include{m_introduction_page}
+\include{m_literature_review_page}
+\include{m_methodology_page}
+\include{m_results_page}
+\include{m_conclusion_page}
+
+\newpage
+\addcontentsline{toc}{section}{REFERENCES}
+\printbibliography[title=REFERENCES]
+
+\end{document}

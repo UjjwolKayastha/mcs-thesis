@@ -1,0 +1,96 @@
+\begin{section}[]{\uppercase{Introduction}}
+
+    \addtocontents{toc}{\uppercase{Introduction}}
+
+    \subsection{Background}
+    In recent years, Artificial Intelligence (AI) and Machine Learning (ML) have rapid advancements which has led to development of Large Language Models (LLMs) like GPT-3, BERT, etc. 
+    On the other hand, it has also led to proliferation of deepfake (DF) techniques. 
+    Deepfake is a technique that uses AI to create fake images, videos, and audio recordings that appear real. 
+    Deepfake technology has been used to create fake news, hoaxes, and other forms of misinformation. 
+    It has been used to create fake images and videos of celebrities, politicians, and other public figures that can be used to blackmail, defame them or manipulate public opinion and influence elections.. 
+    It can also be used to commit fraud or other forms of financial crimes, espionage or other forms of national security threats ot other forms of crimes or unethical behavior. \cite{Gaur2022}
+    Advancement in Deep Learning models has enabled computer vision \cite{Guo2022}, Natural Language Processing (NLP) \cite{Shahi2021}, image processing \cite{Sitaula2022}, image steganography \cite{Bhandari2022} and smart transportation systems \cite{Gaur2022} to name a few.
+    Photo editing softwares with inbuilt AI algorithms like Adobe Photoshop, GIMP, etc. have made it easier to create realistic and sophisticated deepfakes even to those who do not have photo editing experience. \cite{Wang2020}
+    There are many easily available applications that can swap faces in videos and images like FaceApp, Zao, etc. that can be used to create deepfakes.
+    When (General Adversarial Networks) GANs are used to create deepfakes, the researches done earlier that depended on deciphering the metadata of the images or videos to detect deepfakes are no longer effective along with splicing or copy-move detection techniques. Some of the researches are conducted to detect deepfakes produced by GANs. \cite{Li2022}
+    NVIDIA has developed a deep learning model called StyleGAN2 that can generate high-quality deepfake images and videos that are almost indistinguishable from real images and videos which has made it possible for malicious actors to create deepfakes that can be used to deceive people and spread misinformation. \cite{Wong2022}
+    We have been using biometric authentication systems like face recognition, fingerprint recognition, iris recognition, etc. on daily basis for financial transactions, unlocking smartphones, access management etc. \cite{Tran2017}
+    Deepfake technology is evolving rapidly to create deepfakes that even makes us question the authenticity and integrity of information in digital world \Cites{Dang2020}{Rossler2019}.
+    StyleGAN2 offers data-driven simulation relevant for deepfakes creation process optimization \cite{Zotov2022} which this research aims to explore.
+
+    \par
+    The ease of use and availability of deepfake technology has made it easier to generate hyper-realistic deepfakes. This has lessened the value of human integrity and dignity. Social media platforms like Facebook and Twitter (now X) have started to take steps to detect and remove deepfakes from their platforms. 
+    Many cases of deepfakes have been reported: some of the notable incidents include the deepfake video of Barack Obama, Mark Zuckerberg, and Nancy Pelosi. In 2019, a United Kingdom-based energy company was scammed of 243,000 euros by a deepfake audio of the CEO's voice. \cite{Damiani2019}
+    A report published back in 2020, more than 85,000 deepfake contents were which was doubled since initial observation in 2018. \cite{CyberNews2021}
+
+    \subsubsection{Deepfake detection}
+    The term “deepfake” is developed from the technology “deep learning,” a form of Artificial Intelligence (AI). Deep Learning (DL) and neural network technologies used to generate fake photos and
+    videos that are difficult to distinguish from real ones are called “deepfake.” Deepfake detection is a challenging problem because deepfake images and videos are often very realistic and difficult to distinguish from real images and videos. 
+    DF techniques are evolving rapidly and becoming more sophisticated, making it harder to detect deepfakes using traditional methods as it uses Deep Learning (DL) algorithms like Generative Adversarial Networks (GANs).
+    Even though it can be used for good purposes like in the entertainment industry, it can also be used to create fake news, hoaxes, and other forms of misinformation or even security threats and privacy invasion.
+    To maintain the trust and integrity of the digital world, it is important to develop effective deepfake detection techniques to detect and prevent its malicious usage. \cite{Korshunov2019}
+    A plethora of researches have been conducted and published regarding deepfakes classification and detection using Machine Learning (ML) algorithms like Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), Long Short-Term Memory (LSTM), etc. despite the fact that the technology is relatively new and evolving.
+
+    \par Since the deepfake technology is evolving rapidly, it is important to develop deepfake detection models that can keep up with the evolving deepfake technology and mitigate the threat and impact of deepfakes. Not all algorithms are effective but some has shown promising results. Even though some ML algoriths perfoms well, it cannot be devoid of mistakes. The question arisis regarding trust, safety, accuracy and reliability. 
+    European Union has proposed a regulation to regulate the use of deepfake technology to prevent its misuse and protect the privacy, security of individuals and right to explanation under General Data Protection Regulation (GDPR). \cite{Goodman2017}
+
+    \subsubsection{Explainable AI (XAI)}
+    ML algorithms are often considered as blackbox models as they are difficult to interpret and explain. This is where Explainable AI (XAI) comes into play. XAI is a set of techniques and methods that can be used to explain and interpret the decisions made by ML models. \cite{IBMExplainableAI}
+    All of the mentioned work has achieved great accuracy, and DL algorithms have shown excellent
+    performance. But because of the incomprehensible behavior of DL algorithms, there is a lack of liability
+    and trust in the outcomes. Sometimes, this risk of making a wrong decision may outweigh the benefits of
+    precision, speed, and decision-making efficacy. That is why XAI can help to understand and explain DL
+    and neural networks better. Transparency of results and model improvement justify the adoption of XAI
+    in the proposed method.
+    This research uses XAI to showcase the image concentration of the sample images, which is novel in
+    detecting deepfake images with high precision. The usage of XAI makes the proposed method very
+    reliable for detecting deepfake. Also, a comparison between different DL methods will help future
+    researchers choose suitable methods for deepfake research, which paves the way for further improvement.
+
+    \subsection{Statement of the problem}
+    Deep Learning (DL) models like Convolutional Neural Networks (CNNs) have been used to detect deepfakes by analyzing the patterns and features in the images and videos to lessen the impact of deepfakes. \cite{Tolosana2020}
+    However, the performance of the CNN models can be improved by using dual input CNN (DICNN) models that can take advantage of the dual input images to improve the detection accuracy of deepfakes. \cite{Bhandari2023}
+    Despite advances in DeepFake detection, current methods face limitations in accuracy and interpretability. Traditional single input CNNs struggle with complex DeepFake patterns, and their decision-making processes remain opaque and lead to false negatives. There is a need for a more robust and explainable approach to detect and understand DeepFakes. Explainable AI (XAI) techniques aim to address the opacity issue by providing insights into how AI models make decisions. Furthermore, while dual input CNN models that can process multiple sources of information such as temporal and spatial features, have demonstrated improved performance.
+    The proposed research aims to address these limitations by developing a dual input CNN model for DeepFake detection and enhancing its interpretability using XAI techniques and better optimizer.
+
+    \subsection{Research questions}
+
+    \begin{enumerate}[label=\bf{Q\arabic*}]
+        \item How effective is a dual input CNN in detecting DeepFake faces compared to traditional single input CNN models for different datasets?
+        \item How can Explainable AI (XAI) techniques enhance the interpretability and reliability of DeepFake detection models?
+    \end{enumerate}
+
+    \subsection{Research objectives}
+    The research aims to explore use of DICNN with XAI to develop DeepFake detection model by leveraging technologies. This research enhances the implementation of DICNN with XAI to improve the interpretability and reliability of DeepFake detection models with different datasets and advanced optimizer.
+    The main objective of the proposed study is to anticipate and understand fraudulent images, and the major contributions are outlined in the points that follow:
+    \begin{enumerate}[label=\bf{O\arabic*}]
+        \item A dual branch CNN architecture is proposed to enlarge the view of the network with more prominent performance in auguring the fake faces.
+        \item The study explores the blackbox approach of the DICNN model using SHAP to construct explanation-driven findings by utilizing shapely values.
+    \end{enumerate}
+
+    
+    \subsection{Significance/rationale of the study}
+    The growing challenges of deepfake technology have raised concerns about the authenticity and integrity of digital content. 
+    The proposed research aims to develop a dual input CNN model for DeepFake detection and enhance its interpretability using XAI techniques. 
+    The research will contribute to the development of more effective and reliable DeepFake detection models that can help mitigate the threat and impact of deepfakes and help improve the trust and integrity of the digital world. 
+    The research will also help raise awareness about the importance of developing ethical AI and ML technologies that respect human rights and values. 
+    The research will also help inspire future research and innovation in the field of AI and ML and contribute to the development of more advanced and reliable AI and ML technologies that can help address the challenges and opportunities of the digital age.
+
+    \subsection{Limitation and scope of the study}
+    \textbf{Limitations}
+    \begin{enumerate}
+        \item \textbf{Evolving Techniques}: Deepfake technology is rapidly evolving, and new methods may emerge that could potentially bypass the detection techniques developed in this study. Continuous updates and adaptations are necessary to keep the detection models effective.
+        \item \textbf{Computational Resources}: The proposed dual input CNN and XAI techniques require substantial computational resources for training and evaluation, which may not be accessible to all researchers or practitioners.
+        \item \textbf{Interpretability vs. Accuracy}: While Explainable AI aims to enhance the interpretability of the models, there may be a trade-off between achieving high accuracy and maintaining explainability, which needs careful consideration.
+    \end{enumerate}
+
+    \noindent\textbf{Scope}
+    \begin{enumerate}
+        \item \textbf{Dual Input CNN Model}: This study focuses on developing and evaluating a dual input CNN model that utilizes both spatial and temporal features for improved deepfake detection. The scope includes experimenting with different datasets and configurations to optimize performance.
+        \item \textbf{Explainable AI Techniques}: The research integrates Explainable AI techniques, such as SHAP values, to interpret and explain the decision-making process of the CNN model. This will help in understanding how the model differentiates between real and fake content.
+        \item \textbf{Comparative Analysis}: The study includes a comparative analysis of the proposed dual input's result generated with few datasets and different optimizers to evaluate the performance and interpretability of the model.
+    \end{enumerate}
+
+\end{section}
+
+\pagebreak
