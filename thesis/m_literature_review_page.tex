@@ -37,6 +37,7 @@ DICNN (Dual Input Convolutional Neural Network) is based on base model of CNN. F
 
 \par In the base research paper \cite{Bhandari2023} referred, two input layers of size (224 x 224 x 3) were defined. The researcher processed one branch to continue with single convolution layer whose output was then flattened to concatenate flattened results of another branch. Two dense layers and dropout layers were added on top of that.
 The integration of DICNN-XAI to augur fake face images and SHAP based explanation is depicted in the \ref*{fig:proposed-dicnn}. To explore blackbox approach of DICNN, after analysis it was fed to SHAP, an explainable AI.
+The research was carried out from the dataset of fake and real face images from Kaggle. The dataset was divided into training, validation and testing sets. The model was trained on training set and validated on validation set. The model was tested on testing set and the results were evaluated using accuracy, F1-score, precision and recall. The results were compared with other models and the proposed model achieved better results.
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=\linewidth]{images/proposed-dicnn.png}
@@ -44,39 +45,62 @@ The integration of DICNN-XAI to augur fake face images and SHAP based explanatio
     \label{fig:proposed-dicnn}
 \end{figure}
 
-The model was developed in python using Keras and TensorFlow framework and the summary details for proposed DICNN architecture is depicted in 
-
+The model was developed in python using Keras and TensorFlow framework and the summary details for proposed DICNN architecture is depicted in \ref{tab:proposed-dicnn-model}.
  
-% \begin{table}[htbp]
-%     \centering
-%     \begin{tabular}{>{\raggedright\arraybackslash}p{4cm} >{\raggedright\arraybackslash}p{4cm} r >{\raggedright\arraybackslash}p{3cm}}
-%         \toprule
-%         \textbf{Layer Name} & \textbf{Shape of Output} & \textbf{Param \#} & \textbf{Connected to} \\
-%         \midrule
-%         Input 1 & (None, 224, 224, 3) & 0 & - \\
-%         Input 2 & (None, 224, 224, 3) & 0 & - \\
-%         Conv2D & (None, 222, 222, 32) & 896 & Input 1 \\
-%         Flatten 1 & (None, 150,528) & 0 & Input 2 \\
-%         Flatten 2 & (None, 1,577,088) & 0 & Conv2D \\
-%         Concatenate Layer & (None, 1,727,616) & 0 & [Flatten 1, Flatten 2] \\
-%         Dense 1 & (None, 224) & 386,986,208 & Concatenate Layer \\
-%         Dropout & (None, 224) & (None, 224) & Dense 1 \\
-%         Dense 2 & (None, 2) & 450 & Dropout \\
-%         \bottomrule
-%     \end{tabular}
-%     \caption{Summary details of proposed DICNN model}
-%     \label{tab:proposed-dicnn-model}
-% \end{table}
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{images/model-reference.png}
+    \caption{Summary details for DICNN model}
+    \label{fig:model-reference}
+\end{figure}
 
-\vspace{2em}
+\noindent Here, the researcher used the model and for evaluation, training accuracy, training loss, validation accuracy, validation loss, test accuracy, test loss, F1-score were used. The DICNN achieved average training accuracy of \(99.36 \pm 0.62\%\) and average validation accuracy of \(99.30 \pm 0.94\%\) as illustrated in the \ref{fig:dicnn-accuracy}.
 
-Table reference:  \cite{Bhandari2023}
- \par \noindent Total params: 386,987,554 \\
- Trainable params: 386,987,554 \\
- Non-trainable params: 0
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{images/dicnn-accuracy.png}
+    \caption{DICNN accuracy}
+    \label{fig:dicnn-accuracy}
+\end{figure}
 
 \subsection{Explainable AI (XAI)}
-xai
+Deep learning algorithms are blackbox in nautre and it is difficult to understand the decision making process. XAI (Explainable AI) is a field of AI that focuses on making decisions of AI models interpretable. It is crucial to understand the decision making process of AI models. So, to increase the readability and interpretability of AI models, XAI is used, especiallly in image processing \cite{Bhandari2022}, computer vision, forensics \cite{Hall2022} and criminal investigation \cite{BachmaierWinter2022}.
+
+\subsubsection{SHAP}
+SHAP (SHapley Additive exPlanations) is a method that uses game theory to explain the output of any machine learning model. It is used to explain the output of the model by computing the contribution of each feature to the prediction. \cite{SHAP}
+How each pixel in the image contributes to the prediction is explained by SHAP. The SHAP values are calculated by taking the difference between the prediction of the model with the feature and without the feature. The SHAP values are then used to explain the prediction of the model.
+Red color pixels contribute to prediction of class while blue pixels make class predictions less likely correct. \cite{Lundberg2017}
+
+\par Shapley values are computed using Equation \ref{eq:shapley}
+\begin{equation}
+    \phi_i = \sum_{S \subseteq N \setminus \{i\}} \frac{|S|!(M - |S| - 1)!}{M!} \left[ f_x(S \cup \{i\}) - f_x(S) \right]
+    \label{eq:shapley}
+    \end{equation}
+    
+    For a particular attribute $i$, $f_x$ is the switch of results subsumed by values from SHAP. $S$ is the member of all features from feature N, with the deviation of feature $i$. The weighting factor $\frac{|S|!(M - |S| - 1)!}{M!}$ sums up the numerous ways, and the subset $S$ can be permuted. For the attributes with subset $S$, the results are denoted by $f_x(S)$ and are a result of Equation \ref{eq:fx}.
+    
+    \begin{equation}
+    f_x(S) = \mathbb{E}[f(x) | x_S]
+    \label{eq:fx}
+    \end{equation}
+    
+    With each original trait replaced, $(x_i)$, SHAP replaces a binary variable $(z_i')$ that represents whether $x_i$ is absent or present as per Equation \ref{eq:g}.
+    
+    \begin{equation}
+    g(z') = \phi_0 + \sum_{i=1}^{M} \phi_i z_i' = \text{bias} + \sum \text{featureContribution}
+    \label{eq:g}
+    \end{equation}
+    
+    In Equation \ref{eq:g}, for model $f(x)$, the confined surrogate model is $g(z')$.
+    
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{images/shap.png}
+    \caption{SHAP results for (a) fake image and (b) real image}
+    \label{fig:shap}
+\end{figure}
+
+As showin in Fig. \ref{fig:shap}, SHAP results for fake and real images are depicted. The red pixels intensity on fake image is high, where as on real image, the blue pixels intensity is high. The SHAP values are calculated for each pixel in the image and the results are shown in the image.
 
 
 \end{section}

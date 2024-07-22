@@ -44,8 +44,14 @@
     in the proposed method.
     This research uses XAI to showcase the image concentration of the sample images, which is novel in
     detecting deepfake images with high precision. The usage of XAI makes the proposed method very
-    reliable for detecting deepfake. Also, a comparison between different DL methods will help future
-    researchers choose suitable methods for deepfake research, which paves the way for further improvement.
+    reliable for detecting deepfake.
+    \par LIME \cite{Ribeiro2016} was one of the first two most significant efforts in the
+    history of XAI. A tool called Lime may identify features from an image or text that are accountable for
+    an ML model’s predictions. It is not model-specific. It can be applied to a large range of ML and DL
+    algorithms. By feeding the comparable model inputs and watching how the predictions change, LIME
+    tries to figure out the model’s most important features, or the major components that drive any given
+    choice. This method provides easy explanations, such as whether the model’s predictions are driven by a
+    specific word in a document or a feature in an image.
 
     \subsection{Statement of the problem}
     Deep Learning (DL) models like Convolutional Neural Networks (CNNs) have been used to detect deepfakes by analyzing the patterns and features in the images and videos to lessen the impact of deepfakes. \cite{Tolosana2020}
@@ -56,7 +62,7 @@
     \subsection{Research questions}
 
     \begin{enumerate}[label=\bf{Q\arabic*}]
-        \item How effective is a dual input CNN in detecting DeepFake faces compared to traditional single input CNN models for different datasets?
+        \item How effective is a dual input CNN in detecting DeepFake faces compared to traditional single input CNN models with different optimizers?
         \item How can Explainable AI (XAI) techniques enhance the interpretability and reliability of DeepFake detection models?
     \end{enumerate}
 
@@ -90,6 +96,12 @@
         \item \textbf{Explainable AI Techniques}: The research integrates Explainable AI techniques, such as SHAP values, to interpret and explain the decision-making process of the CNN model. This will help in understanding how the model differentiates between real and fake content.
         \item \textbf{Comparative Analysis}: The study includes a comparative analysis of the proposed dual input's result generated with few datasets and different optimizers to evaluate the performance and interpretability of the model.
     \end{enumerate}
+
+    \subsection{Ethical considerations}
+    The research is conducted in accordance with ethical guidelines and principles to ensure the protection of human subjects and data privacy. Use of publicly available datasets and adherence to data protection regulations is done. Informed consent will be obtained for any data collection involving human subjects, and data anonymization techniques are used to protect privacy. The research also ensures transparency and accountability in reporting the results and interpretations to maintain the integrity and trustworthiness of the research findings. The references and citations are properly acknowledged to give credit to the original authors and sources. The research adheres to academic integrity and ethical standards in conducting and reporting the research.
+    \par The research adheres to the ethical standards set forth by my academic institution and any relevant legal requirements, especially regarding data usage and privacy.
+
+
 
 \end{section}
 
