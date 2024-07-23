@@ -1,0 +1,13 @@
+\hspace {86pt}\textbf {Title}\hfill \textbf {Page}\\[-12pt]\par 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Simple representation of CNN\relax }}{6}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Single input CNN architecture\relax }}{7}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Proposed DICNN model\relax }}{8}{}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Summary details for DICNN model\relax }}{8}{}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces DICNN accuracy\relax }}{9}{}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces SHAP results for (a) fake image and (b) real image\relax }}{10}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Fake and Real faces\relax }}{12}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Model Test with original Dataset with training and validation accuracy and losses\relax }}{13}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Training and Validation Results for Adam Optimizer\relax }}{17}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Training and Validation Results for RMSProp Optimizer\relax }}{19}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces LIME Explanation for Fake Image\relax }}{19}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces LIME Explanation for Real Image\relax }}{19}{}%

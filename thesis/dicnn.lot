@@ -1,0 +1,7 @@
+\hspace {96pt}\textbf {Title}\hfill \textbf {Page}\\[-12pt]\par 
+\contentsline {table}{\numberline {3.1}{\ignorespaces Summary details of proposed DICNN model\relax }}{12}{}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Comparison of model with other state-of-art methods\relax }}{14}{}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces List of materials and tools used for training the model\relax }}{15}{}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Epoch-wise Training and Validation Results for Adam Optimizer\relax }}{16}{}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces List of materials and tools used for training the model\relax }}{17}{}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Epoch-wise Training and Validation Metrics for RMSProp Optimizer\relax }}{18}{}%

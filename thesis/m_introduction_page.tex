@@ -13,15 +13,15 @@
     Photo editing softwares with inbuilt AI algorithms like Adobe Photoshop, GIMP, etc. have made it easier to create realistic and sophisticated deepfakes even to those who do not have photo editing experience. \cite{Wang2020}
     There are many easily available applications that can swap faces in videos and images like FaceApp, Zao, etc. that can be used to create deepfakes.
     When (General Adversarial Networks) GANs are used to create deepfakes, the researches done earlier that depended on deciphering the metadata of the images or videos to detect deepfakes are no longer effective along with splicing or copy-move detection techniques. Some of the researches are conducted to detect deepfakes produced by GANs. \cite{Li2022}
-    NVIDIA has developed a deep learning model called StyleGAN2 that can generate high-quality deepfake images and videos that are almost indistinguishable from real images and videos which has made it possible for malicious actors to create deepfakes that can be used to deceive people and spread misinformation. \cite{Wong2022}
+    NVIDIA has developed a deep learning model called StyleGAN that can generate high-quality deepfake images and videos that are almost indistinguishable from real images and videos which has made it possible for malicious actors to create deepfakes that can be used to deceive people and spread misinformation. \cite{Wong2022}
     We have been using biometric authentication systems like face recognition, fingerprint recognition, iris recognition, etc. on daily basis for financial transactions, unlocking smartphones, access management etc. \cite{Tran2017}
     Deepfake technology is evolving rapidly to create deepfakes that even makes us question the authenticity and integrity of information in digital world \Cites{Dang2020}{Rossler2019}.
-    StyleGAN2 offers data-driven simulation relevant for deepfakes creation process optimization \cite{Zotov2022} which this research aims to explore.
+    StyleGAN offers data-driven simulation relevant for deepfakes creation process optimization \cite{Zotov2022} which this research aims to explore.
 
     \par
     The ease of use and availability of deepfake technology has made it easier to generate hyper-realistic deepfakes. This has lessened the value of human integrity and dignity. Social media platforms like Facebook and Twitter (now X) have started to take steps to detect and remove deepfakes from their platforms. 
     Many cases of deepfakes have been reported: some of the notable incidents include the deepfake video of Barack Obama, Mark Zuckerberg, and Nancy Pelosi. In 2019, a United Kingdom-based energy company was scammed of 243,000 euros by a deepfake audio of the CEO's voice. \cite{Damiani2019}
-    A report published back in 2020, more than 85,000 deepfake contents were which was doubled since initial observation in 2018. \cite{CyberNews2021}
+    In a report published back in 2020, more than 85,000 deepfake contents were which was doubled since initial observation in 2018. \cite{CyberNews2021}
 
     \subsubsection{Deepfake detection}
     The term “deepfake” is developed from the technology “deep learning,” a form of Artificial Intelligence (AI). Deep Learning (DL) and neural network technologies used to generate fake photos and
@@ -40,13 +40,13 @@
     performance. But because of the incomprehensible behavior of DL algorithms, there is a lack of liability
     and trust in the outcomes. Sometimes, this risk of making a wrong decision may outweigh the benefits of
     precision, speed, and decision-making efficacy. That is why XAI can help to understand and explain DL
-    and neural networks better. Transparency of results and model improvement justify the adoption of XAI
+    and neural networks better. Transparency of results and model improvement justify the adoption of XAIs
     in the proposed method.
     This research uses XAI to showcase the image concentration of the sample images, which is novel in
     detecting deepfake images with high precision. The usage of XAI makes the proposed method very
     reliable for detecting deepfake.
     \par LIME \cite{Ribeiro2016} was one of the first two most significant efforts in the
-    history of XAI. A tool called Lime may identify features from an image or text that are accountable for
+    history of XAI. A tool called LIME may identify features from an image or text that are accountable for
     an ML model’s predictions. It is not model-specific. It can be applied to a large range of ML and DL
     algorithms. By feeding the comparable model inputs and watching how the predictions change, LIME
     tries to figure out the model’s most important features, or the major components that drive any given
@@ -63,7 +63,7 @@
 
     \begin{enumerate}[label=\bf{Q\arabic*}]
         \item How effective is a dual input CNN in detecting DeepFake faces compared to traditional single input CNN models with different optimizers?
-        \item How can Explainable AI (XAI) techniques enhance the interpretability and reliability of DeepFake detection models?
+            \item How can Explainable AI (XAI) techniques enhance the interpretability and reliability of DeepFake detection models?
     \end{enumerate}
 
     \subsection{Research objectives}
@@ -71,7 +71,7 @@
     The main objective of the proposed study is to anticipate and understand fraudulent images, and the major contributions are outlined in the points that follow:
     \begin{enumerate}[label=\bf{O\arabic*}]
         \item A dual branch CNN architecture is proposed to enlarge the view of the network with more prominent performance in auguring the fake faces.
-        \item The study explores the blackbox approach of the DICNN model using SHAP to construct explanation-driven findings by utilizing shapely values.
+        \item The study explores the blackbox approach of the DICNN model using LIME to construct explanation-driven findings.
     \end{enumerate}
 
     

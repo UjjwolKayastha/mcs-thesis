@@ -1,0 +1,50 @@
+\hfill \textbf {Title}\hfill \textbf {Page}\\[-12pt]\par 
+Declaration\hfill i\par 
+Recommendation\hfill ii\par 
+Certificate\hfill iii\par 
+Acknowledgements\hfill iv\par 
+Abstract\hfill v\par 
+Table of Content\hfill vii\par 
+\thispagestyle {empty}
+List of figures\hfill viii\par 
+List of tables\hfill ix\par 
+\contentsline {section}{\numberline {1}}{1}{}%
+\uppercase {Introduction}
+\contentsline {subsection}{\numberline {1.1}Background}{1}{}%
+\contentsline {subsubsection}{\numberline {1.1.1}Deepfake detection}{2}{}%
+\contentsline {subsubsection}{\numberline {1.1.2}Explainable AI (XAI)}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Statement of the problem}{3}{}%
+\contentsline {subsection}{\numberline {1.3}Research questions}{3}{}%
+\contentsline {subsection}{\numberline {1.4}Research objectives}{4}{}%
+\contentsline {subsection}{\numberline {1.5}Significance/rationale of the study}{4}{}%
+\contentsline {subsection}{\numberline {1.6}Limitation and scope of the study}{4}{}%
+\contentsline {subsection}{\numberline {1.7}Ethical considerations}{5}{}%
+\contentsline {section}{\numberline {2}}{6}{}%
+\uppercase {Literature Review}
+\contentsline {subsection}{\numberline {2.1}Convolutional Neural Networks (CNNs)}{6}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}Single Input CNN Models}{7}{}%
+\contentsline {subsubsection}{\numberline {2.1.2}Dual Input CNN Models}{7}{}%
+\contentsline {subsection}{\numberline {2.2}Explainable AI (XAI)}{9}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}SHAP}{9}{}%
+\contentsline {section}{\numberline {3}}{11}{}%
+\uppercase {Methodology}
+\contentsline {subsection}{\numberline {3.1}Dataset Description}{11}{}%
+\contentsline {subsection}{\numberline {3.2}Development of Proposed Model}{11}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Proposed DICNN Model}{12}{}%
+\contentsline {subsection}{\numberline {3.3}Data Preprocessing}{13}{}%
+\contentsline {subsection}{\numberline {3.4}Training the Model}{13}{}%
+\contentsline {subsection}{\numberline {3.5}Evaluation of the Model}{13}{}%
+\contentsline {subsection}{\numberline {3.6}Explainable AI (XAI)}{14}{}%
+\contentsline {section}{\numberline {4}}{15}{}%
+\uppercase {Results and Discussion}
+\contentsline {subsection}{\numberline {4.1}Training Factors A}{15}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}Training and Validation Results}{15}{}%
+\contentsline {subsection}{\numberline {4.2}Training Factors B}{17}{}%
+\contentsline {subsubsection}{\numberline {4.2.1}Training and Validation Results}{17}{}%
+\contentsline {subsection}{\numberline {4.3}Discussion}{19}{}%
+\contentsline {subsubsection}{\numberline {4.3.1}Performance Validation with XAI}{19}{}%
+\contentsline {section}{\numberline {5}}{20}{}%
+\uppercase {Conclusion and Recommendation}
+\contentsline {subsection}{\numberline {5.1}Conclusion}{20}{}%
+\contentsline {subsection}{\numberline {5.2}Recommendation}{20}{}%
+\contentsline {section}{REFERENCES}{21}{}%
